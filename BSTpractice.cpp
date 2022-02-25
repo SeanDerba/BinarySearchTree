@@ -5,6 +5,13 @@
 
 int main()
 {
-
+	BinarySearchTree tree = BinarySearchTree();
+	tree.insertNode(10);
+	tree.insertNode(7);
+	tree.insertNode(20);
+	tree.insertNode(15);
+	tree.insertNode(1);
+	tree.insertNode(12);
+	tree.printBSTinOrder();
 }
 
